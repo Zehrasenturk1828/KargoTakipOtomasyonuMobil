@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Musteriislem">
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:gravity="center"
+        android:text="MÜŞTERİ İŞLEMLERİ"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:visibility="invisible"
+        android:hint="Müşteri ID"/>
+    <EditText
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Müşteri Ad"/>
+
+        <EditText
+            android:id="@+id/soyad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:hint="Müşteri soyad" />
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Müşteri mail" />
+    <EditText
+        android:id="@+id/adres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Müşteri adres" />
+    <EditText
+        android:id="@+id/telefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Müşteri telefon"
+        android:inputType="number"
+        android:maxLength="11"/>
+    <EditText
+        android:id="@+id/kadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Müşteri kullanici adi" />
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Müşteri sifre"
+        android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:id="@+id/buttonekle"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#5F8AB1"
+        android:text="EKLE"></Button>
+
+    <Button
+        android:id="@+id/islempanelinegit"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#5F8AB1"
+        android:text="İŞLEM PANELİNE GİT"
+        android:textSize="15dp"></Button>
+
+</LinearLayout>

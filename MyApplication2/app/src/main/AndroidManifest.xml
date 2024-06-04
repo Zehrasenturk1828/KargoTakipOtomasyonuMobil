@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.senturkzehra.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".MusteriKargoSorgulama"></activity>
+        <activity android:name=".Musteri_giris" />
+        <activity android:name=".Kullanici_giris" />
+        <activity android:name=".Gonderiislemleri" />
+        <activity android:name=".Musteri_list_islem" />
+        <activity android:name=".Musteri_panel" />
+        <activity android:name=".Musteriislem" />
+        <activity android:name=".Sorgulama" />
+        <activity android:name=".Gdurumguncelle" />
+        <activity android:name=".Gonderi" />
+        <activity android:name=".Sube" />
+        <activity android:name=".Musteri" />
+        <activity android:name=".uyeOl" />
+        <activity android:name=".panel" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

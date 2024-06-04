@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Musteri">
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/logo" />
+    <EditText
+        android:id="@+id/txtmusadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:hint="Müşteri Adı"
+
+        />
+    <EditText
+        android:id="@+id/txtmussoyadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:hint="Müşteri Soyadı"
+
+        />
+    <EditText
+        android:id="@+id/txtmuskadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:hint="Müşteri Kullanıcı Adı"
+        android:enabled="false"
+
+
+        />
+    <EditText
+        android:id="@+id/txtmuskulsifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:hint="Müşteri Şifre"
+        android:enabled="false"
+
+
+        />
+
+    <EditText
+        android:id="@+id/txtmusadres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:hint="Müşteri Adres"
+
+        />
+    <EditText
+        android:id="@+id/txtmusmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:hint="Müşteri Mail"
+
+        />
+    <EditText
+        android:id="@+id/txtmustelefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:inputType="number"
+        android:maxLength="11"
+        android:hint="Müşteri Telefon"
+
+        />
+
+    <Button
+        android:id="@+id/musteriolustur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:backgroundTint="#739194"
+        android:text="MÜŞTERİ EKLE"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/musteriislemleri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:backgroundTint="#739194"
+        android:text="MÜŞTERİ İŞLEMLERI"
+        android:visibility="invisible"
+        android:textSize="15dp" />
+
+
+</LinearLayout>

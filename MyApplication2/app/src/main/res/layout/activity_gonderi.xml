@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Gonderi">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:enabled="false"
+            android:text="GÖNDERİ OLUŞTURMA"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="GÖNDEREN BİLGİLERİ"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/textgadi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="100dp"
+            android:hint="G. Adı" />
+        <EditText
+            android:id="@+id/textgsadi"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:hint="G. Soyadı" />
+
+        <EditText
+            android:id="@+id/textgadres"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="-40dp"
+            android:hint="Gönderen Açık Adres" />
+        <EditText
+            android:id="@+id/textgmail"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:hint="Gönderen Mail" />
+        <EditText
+            android:id="@+id/textgtelefon"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="-40dp"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:hint="Gönderen Telefon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="ALICI BİLGİLERİ"
+            android:ems="50"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/textaladi"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:hint="Alıcı Adı"/>
+        <EditText
+            android:id="@+id/textalsadi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="-40dp"
+            android:hint="Alıcı Soyadı"/>
+        <EditText
+            android:id="@+id/textaladres"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="50dp"
+            android:hint="Alıcı Açık Adres"/>
+        <EditText
+            android:id="@+id/textalmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="-40dp"
+            android:hint="Alıcı Mail"/>
+        <EditText
+            android:id="@+id/altelefon"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="100dp"
+            android:maxLength="11"
+            android:hint="Telefon"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="GÖNDERİ BİLGİLERİ"
+            android:ems="50"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/en"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="230dp"
+            android:hint="En"/>
+
+        <EditText
+            android:id="@+id/yukseklik"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="180dp"
+            android:hint="Yükseklik"/>
+        <EditText
+            android:id="@+id/boy"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="230dp"
+            android:hint="Boy"/>
+
+        <EditText
+            android:id="@+id/agirlik"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="-40dp"
+            android:hint="Ağırlık"/>
+
+
+        <Button
+            android:id="@+id/gonderiolustur"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="70dp"
+            android:backgroundTint="#5F8AB1"
+            android:text="GÖNDERİ OLUŞTUR"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/gonderiislemlerinegit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="70dp"
+            android:backgroundTint="#5F8AB1"
+            android:text="GÖNDERİ İŞLEMLERİ"
+            android:textSize="15dp" />
+        <Button
+            android:id="@+id/paneledon"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="70dp"
+            android:backgroundTint="#5F8AB1"
+            android:text="PANELE DÖN"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+</LinearLayout>
